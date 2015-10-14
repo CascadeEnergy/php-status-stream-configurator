@@ -19,14 +19,8 @@
       "CascadeEnergy\\Tests\\StatusStream\\Configurator\\": "tests"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/cberube/php-execution-environment-metadata.git"
-    }
-  ],
   "require": {
-    "CascadeEnergy/php-execution-environment-metadata": "0.1.x-dev",
+    "cascade-energy/php-execution-environment-metadata": "^0.1.0",
     "cascade-energy/php-status-stream": "^0.2.0"
   },
   "require-dev": {

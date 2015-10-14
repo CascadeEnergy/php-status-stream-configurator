@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d50e54b4a308bc0ec265d0de5af1c422",
-    "content-hash": "730ae65518e744f13e879b20eb28c7c5",
+    "hash": "6e990f33294976ac73b459f3d9bcaf1b",
+    "content-hash": "ab6b2d668bb2f4052f617990cc8b42f9",
     "packages": [
         {
-            "name": "CascadeEnergy/php-execution-environment-metadata",
-            "version": "0.1.x-dev",
+            "name": "cascade-energy/php-execution-environment-metadata",
+            "version": "0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cberube/php-execution-environment-metadata.git",
-                "reference": "e390cfd45b9374f4801153581bb4040f7b25a067"
+                "url": "https://github.com/CascadeEnergy/php-execution-environment-metadata.git",
+                "reference": "58e6c84981a4a0e6a9586ea4ed9a4b1e68be97a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cberube/php-execution-environment-metadata/zipball/e390cfd45b9374f4801153581bb4040f7b25a067",
-                "reference": "e390cfd45b9374f4801153581bb4040f7b25a067",
+                "url": "https://api.github.com/repos/CascadeEnergy/php-execution-environment-metadata/zipball/58e6c84981a4a0e6a9586ea4ed9a4b1e68be97a4",
+                "reference": "58e6c84981a4a0e6a9586ea4ed9a4b1e68be97a4",
                 "shasum": ""
             },
             "require": {
@@ -34,11 +34,7 @@
                     "CascadeEnergy\\ExecutionEnvironment\\MetaData\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "CascadeEnergy\\Tests\\ExecutionEnvironment\\MetaData\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -49,10 +45,7 @@
                 }
             ],
             "description": "PHP objects which provide metadata about the current execution environment",
-            "support": {
-                "source": "https://github.com/cberube/php-execution-environment-metadata/tree/0.1"
-            },
-            "time": "2015-07-29 21:04:00"
+            "time": "2015-10-14 22:26:40"
         },
         {
             "name": "cascade-energy/php-status-stream",
@@ -526,16 +519,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "ef1ca6835468857944d5c3b48fa503d5554cff2f"
+                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ef1ca6835468857944d5c3b48fa503d5554cff2f",
-                "reference": "ef1ca6835468857944d5c3b48fa503d5554cff2f",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
                 "shasum": ""
             },
             "require": {
@@ -584,7 +577,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-09-14 06:51:16"
+            "time": "2015-10-06 15:47:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -766,16 +759,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.10",
+            "version": "4.8.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "463163747474815c5ccd4ae12b5b355ec12158e8"
+                "reference": "be067d6105286b74272facefc2697038f8807b77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/463163747474815c5ccd4ae12b5b355ec12158e8",
-                "reference": "463163747474815c5ccd4ae12b5b355ec12158e8",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/be067d6105286b74272facefc2697038f8807b77",
+                "reference": "be067d6105286b74272facefc2697038f8807b77",
                 "shasum": ""
             },
             "require": {
@@ -834,7 +827,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-01 09:14:30"
+            "time": "2015-10-14 13:49:40"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1126,16 +1119,16 @@
         },
         {
             "name": "sebastian/global-state",
-            "version": "1.0.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "c7428acdb62ece0a45e6306f1ae85e1c05b09c01"
+                "reference": "bc37d50fea7d017d3d340f230811c9f1d7280af4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/c7428acdb62ece0a45e6306f1ae85e1c05b09c01",
-                "reference": "c7428acdb62ece0a45e6306f1ae85e1c05b09c01",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/bc37d50fea7d017d3d340f230811c9f1d7280af4",
+                "reference": "bc37d50fea7d017d3d340f230811c9f1d7280af4",
                 "shasum": ""
             },
             "require": {
@@ -1173,7 +1166,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2014-10-06 09:23:50"
+            "time": "2015-10-12 03:26:01"
         },
         {
             "name": "sebastian/recursion-context",
@@ -1315,9 +1308,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "cascadeenergy/php-execution-environment-metadata": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
