@@ -20,8 +20,8 @@
     }
   },
   "require": {
-    "cascade-energy/php-execution-environment-metadata": "^0.1.0",
-    "cascade-energy/php-status-stream": "^0.2.0"
+    "cascade-energy/php-status-stream": "^0.2.0",
+    "cascade-energy/php-execution-environment-metadata": "^0.3.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.7"
